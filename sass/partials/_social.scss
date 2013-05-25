@@ -1,0 +1,67 @@
+
+.elsewhere {
+  background: #232323;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #333;
+  letter-spacing: .06em;
+  @include breakpoint(m-size) {
+    padding: 2em 0;
+  }
+}
+.elsewhere h3 {
+  color: #555;
+  font-weight: 300;
+  @include breakpoint(m-size) {
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+  }
+}
+.elsewhere__list {
+  list-style: none;
+  padding: 1em 0 2em 0;
+}
+.elsewhere__list li {
+  display: inline-block;
+  list-style: none;
+  @include breakpoint(m-size) {
+    margin-bottom: 1em;
+  }
+}
+
+.social {
+  background: $blau;
+  background: $mittel-blau;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.05);
+  border-radius: 10px 0 10px 0;
+  display: block;
+  float: left;
+  padding: .7em 1em .6em 1em;
+  margin: 1em;
+
+  @include breakpoint(l-size) {
+    -moz-transform:     rotate(-45deg);
+    -ms-transform:      rotate(-45deg);
+    -webkit-transform:  rotate(-45deg);
+    -o-transform:       rotate(-45deg);
+    transform:          rotate(-45deg);
+  }
+
+  -moz-transition:    all .25s ease-in;
+  -webkit-transition: all .25s ease-in;
+  -o-transition:      all .25s ease-in;
+  transition:         all .25s ease-in;
+}
+
+a.social {
+  color: #fff;
+}
+.social:hover {
+  background-color: $gruen;
+  border-color: #fff;
+
+  -moz-transform:     rotate(0deg);
+  -ms-transform:      rotate(0deg);
+  -webkit-transform:  rotate(0deg);
+  -o-transform:       rotate(0deg);
+  transform:          rotate(0deg);  
+}

@@ -1,0 +1,26 @@
+// Links die Buttons sind
+.button {
+  background-color: $blau;
+  border-radius: .35em;
+  display: inline-block;
+  font-weight: 300;
+  margin: .2em .2em 1em .2em;
+  padding: .5em .75em;
+  text-decoration: none;
+  // text-shadow: 0 1px 0 rgba(255,255,255,.50);
+}
+a.button {
+  color: #fff;
+}
+.button:hover {
+  background-color: $gruen;
+  color: #fff;
+}
+.button--up {
+  background-color: #3a3a3a;
+  border: 1px solid #666;
+  padding: 1em;
+}
+.button--up:hover {
+  background-color: $blau;
+}

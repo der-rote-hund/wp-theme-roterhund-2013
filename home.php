@@ -1,33 +1,21 @@
 <?php
+// Exit if accessed directly
+if ( !defined('ABSPATH')) exit;
+
 /**
- * The Template for displaying all single posts.
+ * Home Page Template
+ *
+   Template Name:  Home Page
+ *
  *
  * @package Der Rote Hund
  */
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-		
-		<h1>HOME</h1>
+<?php while ( have_posts() ) : the_post(); ?>
+    <?php get_template_part( 'content', 'home' ); ?>
+<?php endwhile; // end of the loop. ?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'content', 'single' ); ?>
-
-			<?php der_rote_hund_content_nav( 'nav-below' ); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || '0' != get_comments_number() )
-					comments_template();
-			?>
-
-		<?php endwhile; // end of the loop. ?>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

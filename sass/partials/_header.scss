@@ -1,0 +1,43 @@
+header {  
+    padding: 1em;
+    z-index: 1000;
+  @include breakpoint(m-size) {
+
+  }
+}
+.page-header {
+  border-top: 1px solid $gruen;
+  border-bottom: 1px solid $blau;
+  color: $rot;
+  font-weight: 300;
+  padding: 1em 0;
+  text-align: center;
+}
+.page-header span {
+  font-weight: 400;
+}
+.header__intro {
+  color: #232323;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0 auto 0.75em auto;
+  width: 90%;
+  max-width: 44em;
+}
+.header__intro em {
+  color: #1f1f1f;
+}
+.main {
+  text-align: center;
+}
+.main br {
+  display: none;
+}
+.main a {
+  margin-right: 1em;
+}
+.nav-header {
+  display: none;
+}

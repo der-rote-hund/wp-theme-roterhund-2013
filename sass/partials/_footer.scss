@@ -1,0 +1,39 @@
+footer {
+  background: #232323;
+  border-top: 1px solid #111;
+  color: #c1c1c1;
+  letter-spacing: .06em;
+  padding: 1em 0 6em 0;
+  @include breakpoint(l-size) {
+    padding: 3em 0;
+  }
+}
+
+footer a {
+  display: block;
+}
+
+.fussnote {
+  color: #666;
+  font-size: .7em;
+  letter-spacing: .1em;
+}
+
+.fussnote:target {
+  -webkit-animation-name: highlight;
+  -webkit-animation-duration: .75s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: linear;
+}
+
+
+@-webkit-keyframes highlight {
+  from { color: #666; }
+  50% { color: $gelb; }
+  to { color: #666; }
+}
+@-moz-keyframes highlight {
+  from { color: #666; }
+  50% { color: $gelb; }
+  to { color: #666; }
+}

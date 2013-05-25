@@ -8,19 +8,46 @@
  */
 ?>
 
-	</div><!-- #main -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php do_action( 'der_rote_hund_credits' ); ?>
-			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'der_rote_hund' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'der_rote_hund' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'der_rote_hund' ), 'Der Rote Hund', '<a href="http://www.roterhund.de" rel="designer">Philipp Marquardt</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
 <?php wp_footer(); ?>
+
+        </div> <!-- .content -->
+
+        <footer id="contact">
+            <article class="imprint">
+                <p>&copy; 2013 Philipp Marquardt <a href="mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,">pm@roterhund.de</a></p>
+            </article>
+            <aside>
+                <p id="fn-1" class="fussnote">(*) Mostly. May contain traces of CSS 3 and HTML 5.</p>
+            </aside>
+        </footer>
+
+    </div> <!-- .wrapper -->
+
+<!-- Back to top -->
+    <div id="to-top" style="position: fixed; right: 0; bottom: 0; display: block;"><p><a href="#anchor-top" class="button button--up" title="zum Seitenanfang"><span class="triangle triangle-up"></span></a></p></div>
+
+
+<!-- Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+
+    <script src="js/jquery.scrollTo-min.js"></script>
+    <script src="js/jquery.localscroll-min.js"></script>
+    <script src="js/rhd-scripts.js"></script>
+
+<!-- Piwik --> 
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://roterhund.de/piwik-analytics/" : "http://roterhund.de/piwik-analytics/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script>
+    <noscript><p><img src="http://roterhund.de/piwik-analytics/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
 
 </body>
 </html>

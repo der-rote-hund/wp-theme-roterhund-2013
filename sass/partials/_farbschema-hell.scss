@@ -1,0 +1,15 @@
+// Farben
+$blau: #0bc5f4;
+$mittel-blau: #1ebce4;
+$rot: #fc1e00;
+$gruen: #02e447;
+$gelb: #ffed00;
+
+a:link,
+a:visited,
+a:active {
+  color: $blau;
+}
+a:hover {
+	color: $gruen;
+}

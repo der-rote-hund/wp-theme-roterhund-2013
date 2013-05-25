@@ -1,0 +1,85 @@
+/* Der Rote Hund aus CSS-3-box-shadow */ 
+.hund {
+  box-shadow:
+  /* Kopf */
+    -8em -5em 0 0 red, /* linkes Ohr */
+    -6em -5em 0 0 red, /* rechtes Ohr */
+
+    -8em -4em 0 0 red, /* stirn */
+    -7em -4em 0 0 red,
+    -6em -4em 0 0 red,
+
+    -9em -3em 0 0 red, /* obere reihe nase */
+    -8em -3em 0 0 red,
+    -7em -3em 0 0 red,
+    -6em -3em 0 0 red,
+
+    -9em -2em 0 0 red, /* untere reihe nase */
+    -8em -2em 0 0 red,
+    -7em -2em 0 0 red,
+    -6em -2em 0 0 red,
+
+    -5em -2em 0 0 red, /* ruecken */
+    -4em -2em 0 0 red,
+    -3em -2em 0 0 red,
+    -2em -2em 0 0 red,
+    -1em -2em 0 0 red,
+       0 -2em 0 0 red,
+     1em -2em 0 0 red,
+     2em -2em 0 0 red,    
+
+    -6em -1em 0 0 red, /* brust */
+    -6em 0 0 0 red,
+    -6em 1em 0 0 red,
+    -5em -1em 0 0 red,
+    -5em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -4em 1em 0 0 red,
+    -3em -1em 0 0 red,
+    -3em 0 0 0 red,
+    -3em 1em 0 0 red,
+    -2em -1em 0 0 red,
+    -2em 0 0 0 red,
+    -2em 1em 0 0 red,
+
+    0 0 0 1em red, /* "bauch" */
+
+    3em -3em 0 0 red, /* schwanz */
+    3em -4em 0 0 red,
+    3em -5em 0 0 red,
+
+    -6em 2em 0 0 red, /* bein 1 */
+    -6em 3em 0 0 red,
+    -6em 4em 0 0 red,
+
+    -4em 2em 0 0 red, /* bein 2 */
+    -4em 3em 0 0 red,
+    -4em 4em 0 0 red,
+
+    -1em 2em 0 0 red, /* bein 3 */
+    -1em 3em 0 0 red,
+    -1em 4em 0 0 red,
+
+    1em 2em 0 0 red, /* bein 4 */
+    1em 3em 0 0 red,
+    1em 4em 0 0 red;
+
+    background: red;
+    display: block;
+    margin: 10em auto 7em auto;
+    overflow: hidden;
+    position: relative;
+     left: 2.5em;
+    width: 1em;
+    height: 1em;
+  }
+
+/* Für Browser, die box-shadow nicht (ganz) verstehen: */
+.lt-ie9 .hund, /* fuer explorer 8/7 ohne javascript */
+.no-boxshadow .hund { /* fuer alle, die es per normalizr zugeben oder ff3/Safari5 per ua-sniffer*/
+    background: #fff url("../images/hund.gif") 50% 50% no-repeat;
+    width: 141px;
+    height: 111px;
+}

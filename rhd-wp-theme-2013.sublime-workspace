@@ -1,0 +1,572 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"imagename"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"hell",
+				"hell-grau"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"DUNKEL",
+				"dunkel-grau"
+			],
+			[
+				"dun",
+				"dunkel-grau"
+			],
+			[
+				"1em",
+				"1em"
+			],
+			[
+				"he",
+				"hell-blau"
+			],
+			[
+				"mi",
+				"mittel-grau"
+			],
+			[
+				"weiss",
+				"weiss"
+			],
+			[
+				"cn",
+				"center"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"st",
+				"style	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "home.php",
+			"settings":
+			{
+				"buffer_size": 10878,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content.php",
+			"settings":
+			{
+				"buffer_size": 2445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content-page-home.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content-page.php",
+			"settings":
+			{
+				"buffer_size": 713,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content-home.php",
+			"settings":
+			{
+				"buffer_size": 713,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"selected_items":
+		[
+			[
+				"ind",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"in",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/content-page-home.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/footer.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/header.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/.gitignore",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/home.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_header.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_social.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_work.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_modal-window.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_gallery.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_footer.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_buttons.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/style.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_wp-comment.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_underscores.css",
+		"/Users/philipp/Library/Caches/TemporaryItems/.htaccess",
+		"/Users/philipp/Sites/portfolio/html-v4/sass/partials/_hund.scss",
+		"/Users/philipp/Sites/portfolio/html-v4/js/rhd-scripts.js",
+		"/Users/philipp/Sites/portfolio/html-v4/sass/partials/_modal-window.scss",
+		"/Users/philipp/Sites/portfolio/html-v4/sass/partials/_work.scss",
+		"/Users/philipp/Sites/portfolio/html-v4/sass/partials/_lis.scss",
+		"/Users/philipp/Sites/portfolio/html-v4/js/flyout-nav.js",
+		"/Users/philipp/Sites/portfolio/html-v4/sass/partials/_farbschema-hell.scss",
+		"/Users/philipp/Sites/portfolio/html-v4/sass/partials/_img-list.scss",
+		"/Users/philipp/Sites/portfolio/html-v4/sass/partials/_footer.scss",
+		"/Users/philipp/Sites/portfolio/html-v4/index.html",
+		"/Users/philipp/Sites/portfolio/html-v4/sass/partials/_gallery.scss",
+		"/Users/philipp/Sites/portfolio/html-v4/sass/partials/_normalize.scss",
+		"/Users/philipp/Sites/portfolio/html-v4/liebeimschleudergang/index.php",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_normalize.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_modal-window.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/js/rhd-scripts.js",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_mixins.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/der-rote-hund.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/index.html",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_shame.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_work.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_grid.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_font-sizes.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_img-list.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_lt-ie7.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_header.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_portfolio.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_shapes.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_social.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_gallery.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_footer.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_buttons.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_farbschema-hell.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_clearfix.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_farbschema-dunkel.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_plugin-flexslider.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_hund.scss",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/style.scss",
+		"/Users/philipp/Sites/2013 Runroom/ESADE/2013-03-02-Mail/preflight-01.html",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_ie9-classes.scss",
+		"/Users/philipp/Sites/portfolio/html-v2/index.html",
+		"/Users/philipp/Sites/portfolio/html-v1/index.html",
+		"/Users/philipp/Sites/portfolio/html-v3/sass/partials/_body-em-queries.scss",
+		"/Users/philipp/Sites/1und1/rhd-portfolio/css/main.css",
+		"/Users/philipp/Sites/portfolio/index.html",
+		"/Users/philipp/Sites/portfolio/html-v2/portfolio.sublime-project",
+		"/Users/philipp/Sites/portfolio/html-v2/portfolio.sublime-workspace",
+		"/Users/philipp/Sites/portfolio/sass/partials/_farbschema-hell.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_header.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_hund.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_mixins.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_normalize.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_shapes.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_footer.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_work.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_plugin-flexslider.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_farbschema-dunkel.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_grid.scss",
+		"/Users/philipp/Sites/portfolio/sass/partials/_buttons.scss",
+		"/Users/philipp/Sites/portfolio/portfolio.sublime-project",
+		"/Users/philipp/Sites/portfolio/sass/style.scss",
+		"/Users/philipp/Sites/portfolio/js/jquery.flexslider.js",
+		"/Users/philipp/Sites/portfolio/js/jquery.flexslider-1-8.js",
+		"/Users/philipp/Sites/portfolio/js/rhd-scripts.js",
+		"/Users/philipp/Sites/portfolio/js/jquery.localscroll-min.js",
+		"/Users/philipp/Sites/portfolio/js/jquery.scrollTo-min.js",
+		"/Users/philipp/Sites/portfolio/js/localscroll.js",
+		"/Users/philipp/Sites/portfolio/js/jquery-1.8.3.min.js",
+		"/Users/philipp/Sites/portfolio/css/style.css",
+		"/Users/philipp/Sites/_portfolio/sass/style.scss",
+		"/Users/philipp/Sites/_portfolio/sass/partials/_normalize.scss",
+		"/Users/philipp/Sites/_portfolio/sass/partials/_hund.scss",
+		"/Users/philipp/Sites/_portfolio/sass/partials/_mixins.scss",
+		"/Users/philipp/Sites/_portfolio/index.html",
+		"/Users/philipp/Sites/_portfolio/sass/partials/_footer.scss",
+		"/Users/philipp/Sites/_portfolio/sass/partials/_header.scss",
+		"/Users/philipp/Downloads/compass-sass-html5boilerplate-master/index.html",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/404.php",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/style.scss",
+		"/Users/philipp/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/philipp/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_global.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_content.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_comments.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_asides.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_menu.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_normalize.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_hund.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/style.css",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_reset.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_wp-theme-comment.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/header.php",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_search.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_widgets.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_media-embeds.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_navigation.scss",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/roterhund.scss",
+		"/Users/philipp/Sites/1und1/roterhund/index.html",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/rhd-wp-theme.sublime-project",
+		"/Users/philipp/Sites/1und1/roterhund/roterhund.sublime-workspace",
+		"/Users/philipp/Sites/1und1/roterhund/wp-content/themes/rhd/header.php",
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/_s/index.php",
+		"/Users/philipp/Sites/1und1 alt/roterhund/_dev/summe-der-teile/rhd-pixel-table.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"portfolio",
+			" {",
+			"<i",
+			"↗",
+			"h1",
+			".wra",
+			"blue",
+			"baumgartner"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "home.php",
+					"settings":
+					{
+						"buffer_size": 10878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "content.php",
+					"settings":
+					{
+						"buffer_size": 2445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								44
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "content-page-home.php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "content-page.php",
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "content-home.php",
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/philipp/Sites/portfolio/portfolio.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true
+}

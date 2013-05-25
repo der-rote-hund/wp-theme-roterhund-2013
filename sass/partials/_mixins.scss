@@ -1,0 +1,88 @@
+ 
+// MIXINS
+
+// Font Size in REM (rem + px)
+@mixin font($size) {
+  font-size: $size + px;
+  font-size: $size/16 + rem;
+}
+// usage:
+// .element {
+// 	@include font(40);
+// }
+
+// REM (rem + px)
+@mixin width($size) {
+  width: $size + px;
+  width: $size/16 + rem;
+}
+// usage:
+// .element {
+//  @include width(40);
+// }
+
+
+
+// Spaltenbreiten
+@function spaltenbreite($target, $container) {
+   @return ($target / $container) * 100%;
+}
+// Spaltenbreiten gerundet
+@function spaltenbreite-gerundet($target, $container) {
+   $breite: ($target / $container) * 100%;
+   @return floor($breite);
+}
+// usage:
+// .my-module {
+//   width: spaltenbreite-gerundet(700px, 940px);
+// }
+
+
+// von css-tricks:
+@mixin breakpoint($point) {
+  @if $point == xl-size {
+    @media (min-width: 66em) { @content; } // 1056px +
+  }
+  @else if $point == l-size {
+    @media (min-width: 48.1em) { @content; } // 768px +
+  }
+  @else if $point == m-size {
+    @media (min-width: 44em)  { @content; } // 704px
+  }
+}
+// usage:
+// .page-wrap {
+//   width: 75%;
+//   @include breakpoint(xl-size) { width: 60%; }
+//   @include breakpoint(l-size) { width: 80%; }
+//   @include breakpoint(m-size) { width: 95%; }
+// }
+
+
+// Hintergrund-Verlauf
+@mixin gradient($fall, $color1, $start, $color2, $end) {
+	background: $fall;
+	background-image: background-webkit-gradient(linear, left top, left bottom, color-stop($start,$color1), color-stop($end,$color2));
+	background-image: -webkit-linear-gradient(top, $color1 $start, $color2 $end);
+	background-image: -moz-linear-gradient(top, $color1 $start, $color2 $end);
+	background-image: -ms-linear-gradient(top, $color1 $start, $color2 $end);
+	background-image: -o-linear-gradient(top, $color1 $start, $color2 $end);
+	background-image: linear-gradient(top, $color1 $start, $color2 $end);
+}
+// usage:
+// .foo {
+//  	@include gradient(fallback, color1, color1start, color2, color2start);
+// }
+
+// Schatten
+@mixin box-shadow($left, $top, $blur, $color, $inset:"") {
+	-webkit-box-shadow:$left $top $blur $color #{$inset};
+	-moz-box-shadow:$left $top $blur $color #{$inset};
+	box-shadow:$left $top $blur $color #{$inset};
+}
+// usage:
+// .foo {
+// 	@include box-shadow(inset, 0, 1px, 1px, rgba(0, 0, 0, 0.075));
+// }
+
+// END MIXINS

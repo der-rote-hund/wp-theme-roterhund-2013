@@ -1,0 +1,22 @@
+.img-list {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.img-list li {
+  display: inline-block;
+  padding: 16px;
+  padding: 1rem;
+  text-align: left;
+  vertical-align: top;
+  width: 100%;
+  max-width: 320px;
+  @include breakpoint(m-size) {
+    margin: 0 16px 32px 0;
+    margin: 0 1rem 2rem 0;
+  }
+}
+.img-list li img {
+  margin-bottom: 1em;
+}

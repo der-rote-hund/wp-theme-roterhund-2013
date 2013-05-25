@@ -1,0 +1,43 @@
+
+body {
+  font-size: 100%;
+  text-align: center;
+}
+
+p, h6 {
+  @include font(14);
+  @include breakpoint(m-size) {
+    @include font(16);
+  }
+}
+h5, h4 {
+  @include font(14);
+  @include breakpoint(m-size) {
+    @include font(16);
+  }
+}
+h3 {
+  @include font(16);
+  @include breakpoint(m-size) {
+    @include font(18);
+  }
+}
+h2 {
+  @include font(18);
+  @include breakpoint(m-size) {
+    @include font(20);
+  }
+}
+h1 {
+  @include font(20);
+  @include breakpoint(m-size) {
+    @include font(22);
+  }
+}
+
+p.hund {
+  font-size: 5px;
+  @include breakpoint(m-size) {
+    font-size: 10px;
+  }
+}
