@@ -73,13 +73,13 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0; }
 
 pre {
   font-family: monospace, monospace;
-  _font-family: "courier new", monospace;
+  _font-family: 'courier new', monospace;
   font-size: 1em;
   white-space: pre;
   white-space: pre-wrap;
@@ -287,14 +287,14 @@ p.hund {
   height: 0; }
 
 .triangle-up {
-  border-left: 0.3em solid transparent;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0.6em solid; }
+  border-left: .3em solid transparent;
+  border-right: .3em solid transparent;
+  border-bottom: .6em solid; }
 
 .triangle-right {
-  border-top: 0.3em solid transparent;
-  border-left: 0.6em solid;
-  border-bottom: 0.3em solid transparent; }
+  border-top: .3em solid transparent;
+  border-left: .6em solid;
+  border-bottom: .3em solid transparent; }
 
 .circle {
   border-radius: 50%; }
@@ -316,8 +316,8 @@ article {
   border-radius: .35em;
   display: inline-block;
   font-weight: 300;
-  margin: 0.2em 0.2em 1em 0.2em;
-  padding: 0.5em 0.75em;
+  margin: .2em .2em 1em .2em;
+  padding: .5em .75em;
   text-decoration: none; }
 
 a.button {
@@ -329,7 +329,7 @@ a.button {
 
 .button--up {
   background-color: #3a3a3a;
-  border: 1px solid #666666;
+  border: 1px solid #666;
   padding: 1em; }
 
 .button--up:hover {
@@ -362,8 +362,8 @@ header {
   z-index: 1000; }
 
 .page-header {
-  border-top: 1px solid #02e447;
-  border-bottom: 1px solid #0bc5f4;
+  border-top: 1px solid #ffed00;
+  border-bottom: 2px solid #ffed00;
   color: #fc1e00;
   font-weight: 300;
   padding: 1em 0;
@@ -397,6 +397,19 @@ header {
 .nav-header {
   display: none; }
 
+#lang_sel_list {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+#lang_sel_list li {
+  padding: 1em;
+  display: inline-block; }
+
+html[lang|="en"] #lang_sel_list li.icl-en,
+html[lang|="de"] #lang_sel_list li.icl-de {
+  display: none; }
+
 /*
   GALLERY
 */
@@ -407,12 +420,12 @@ header {
   border-radius: 50%;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
   display: inline-block;
-  margin: 0.5em 3em;
+  margin: .5em 3em;
   overflow: hidden;
-  -moz-transition: all 0.25s ease-in;
-  -webkit-transition: all 0.25s ease-in;
-  -o-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in; }
+  -moz-transition: all .25s ease-in;
+  -webkit-transition: all .25s ease-in;
+  -o-transition: all .25s ease-in;
+  transition: all .25s ease-in; }
 
 .gallery__img:hover {
   border-radius: 0;
@@ -433,8 +446,8 @@ header {
 
 .elsewhere {
   background: #232323;
-  border-top: 1px solid black;
-  border-bottom: 1px solid #333333;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #333;
   letter-spacing: .06em; }
   @media (min-width: 44em) {
     .elsewhere {
@@ -466,12 +479,12 @@ header {
   border-radius: 10px 0 10px 0;
   display: block;
   float: left;
-  padding: 0.7em 1em 0.6em 1em;
+  padding: .7em 1em .6em 1em;
   margin: 1em;
-  -moz-transition: all 0.25s ease-in;
-  -webkit-transition: all 0.25s ease-in;
-  -o-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in; }
+  -moz-transition: all .25s ease-in;
+  -webkit-transition: all .25s ease-in;
+  -o-transition: all .25s ease-in;
+  transition: all .25s ease-in; }
   @media (min-width: 48.1em) {
     .social {
       -moz-transform: rotate(-45deg);
@@ -495,7 +508,7 @@ a.social {
 .work {
   background: #f1f1f1;
   border-top: 1px solid #dddddd;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fff;
   margin: 0;
   padding: 2em 1em; }
 
@@ -506,11 +519,15 @@ a.social {
 .sectionheader {
   color: #666;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 3.5em;
+  font-size: 2em;
   font-style: italic;
   font-weight: normal;
-  margin: 0.15em 0 0.25em 0; }
+  margin: .15em 0 .25em 0; }
 
+@media (min-width: 44em) {
+  .work > h3,
+  .sectionheader {
+    font-size: 3.5em; } }
 .work li {
   background: #fff;
   border-right: 1px solid #e3e3e3;
@@ -553,7 +570,7 @@ a.social {
 
 footer {
   background: #232323;
-  border-top: 1px solid #111111;
+  border-top: 1px solid #111;
   color: #c1c1c1;
   letter-spacing: .06em;
   padding: 1em 0 6em 0; }
@@ -570,6 +587,7 @@ footer a {
   letter-spacing: .1em; }
 
 .fussnote:target {
+  outline: none;
   -webkit-animation-name: highlight;
   -webkit-animation-duration: .75s;
   -webkit-animation-iteration-count: 1;
@@ -613,10 +631,10 @@ html, body {
   height: 100%;
   text-align: center;
   z-index: 5;
-  -moz-transition: all 0.25s ease-out;
-  -webkit-transition: all 0.25s ease-out;
-  -o-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out; }
+  -moz-transition: all .25s ease-out;
+  -webkit-transition: all .25s ease-out;
+  -o-transition: all .25s ease-out;
+  transition: all .25s ease-out; }
 
 .off {
   overflow: hidden;
@@ -649,6 +667,24 @@ html, body {
   max-height: 100%;
   display: inline-block;
   vertical-align: middle; }
+
+/* style the links for the top level */
+#lang_sel a,
+#lang_sel a:visited {
+  display: block; }
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+#lang_sel ul ul {
+  visibility: hidden;
+  position: absolute;
+  height: 0; }
+
+/* style the table so that it takes no ppart in the layout - required for IE to work */
+#lang_sel table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-collapse: collapse; }
 
 .lt-ie7 .circle,
 .lt-ie7 .triangle {

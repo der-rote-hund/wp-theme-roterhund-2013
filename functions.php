@@ -122,13 +122,15 @@ function der_rote_hund_widgets_init() {
 }
 add_action( 'widgets_init', 'der_rote_hund_widgets_init' );
 
+define('ICL_DONT_LOAD_LANGUAGE_SELECTOR_CSS', true);
+
 /**
  * Enqueue scripts and styles
  */
 function der_rote_hund_scripts() {
 	wp_enqueue_style( 'Der Rote Hund-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'Der Rote Hund-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+//	wp_enqueue_script( 'Der Rote Hund-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'Der Rote Hund-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
@@ -146,3 +148,22 @@ add_action( 'wp_enqueue_scripts', 'der_rote_hund_scripts' );
  * Implement the Custom Header feature
  */
 //require( get_template_directory() . '/inc/custom-header.php' );
+
+
+
+function getActiveLanguage() {
+  // fetches the list of languages
+  $languages = icl_get_languages('skip_missing=N&orderby=KEY&order=DIR');
+
+  $activeLanguage = 'en';
+
+  // runs through the languages of the system, finding the active language
+  foreach($languages as $language) {
+    // tests if the language is the active one
+    if($language['active'] == 1) {
+      $activeLanguage = $language['language_code'];
+    }
+  }
+
+  return $activeLanguage;
+}

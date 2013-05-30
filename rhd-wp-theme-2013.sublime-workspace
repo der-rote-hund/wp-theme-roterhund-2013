@@ -112,42 +112,10 @@
 	"buffers":
 	[
 		{
-			"file": "home.php",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 10878,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content.php",
-			"settings":
-			{
-				"buffer_size": 2445,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content-page-home.php",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content-page.php",
-			"settings":
-			{
-				"buffer_size": 713,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content-home.php",
-			"settings":
-			{
-				"buffer_size": 713,
+				"buffer_size": 2946,
 				"line_ending": "Unix"
 			}
 		}
@@ -155,20 +123,20 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 307.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"ind",
 				"Indentation: Convert to Spaces"
 			],
 			[
-				"in",
-				"Indentation: Convert to Spaces"
-			],
-			[
 				"inde",
-				"Indentation: Convert to Spaces"
+				"Indentation: Reindent Lines"
 			],
 			[
 				"inden",
@@ -204,17 +172,30 @@
 	},
 	"file_history":
 	[
-		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/content-page-home.php",
-		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/footer.php",
-		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/header.php",
-		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/.gitignore",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/browserdetect.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_footer.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/content-home.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/functions.php",
 		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/home.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/footer.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_hund.scss",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/js/quirksmode-browser-detect.js",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/header.php",
+		"/Users/philipp/Sites/portfolio/html-v3/js/quirksmode-browser-detect.js",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/js/rhd-scripts.js",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/js/navigation.js",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/header-intro.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/content-header-intro.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/content-page.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/content-single.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/content-page-home.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/content.php",
+		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/.gitignore",
 		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_header.scss",
 		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_social.scss",
 		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_work.scss",
 		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_modal-window.scss",
 		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_gallery.scss",
-		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_footer.scss",
 		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_buttons.scss",
 		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/style.scss",
 		"/Users/philipp/Sites/__git/roterhund/wp-content/themes/wp-theme-roterhund-2013/sass/partials/_wp-comment.scss",
@@ -318,11 +299,7 @@
 		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/teile/_navigation.scss",
 		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/scss/roterhund.scss",
 		"/Users/philipp/Sites/1und1/roterhund/index.html",
-		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/rhd-wp-theme.sublime-project",
-		"/Users/philipp/Sites/1und1/roterhund/roterhund.sublime-workspace",
-		"/Users/philipp/Sites/1und1/roterhund/wp-content/themes/rhd/header.php",
-		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/_s/index.php",
-		"/Users/philipp/Sites/1und1 alt/roterhund/_dev/summe-der-teile/rhd-pixel-table.html"
+		"/Users/philipp/Sites/1und1/roterhund/wordpress/wp-content/themes/roterhund/rhd-wp-theme.sublime-project"
 	],
 	"find":
 	{
@@ -340,6 +317,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"?>",
 			"portfolio",
 			" {",
 			"<i",
@@ -350,13 +328,13 @@
 			"baumgartner"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -365,23 +343,27 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "home.php",
+					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 10878,
+						"buffer_size": 2946,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								0,
+								0
+							],
+							[
+								1457,
+								1457
 							]
 						],
 						"settings":
@@ -391,115 +373,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "content.php",
-					"settings":
-					{
-						"buffer_size": 2445,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								44
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "content-page-home.php",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "content-page.php",
-					"settings":
-					{
-						"buffer_size": 713,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								133,
-								108
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "content-home.php",
-					"settings":
-					{
-						"buffer_size": 713,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								279,
-								279
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 320.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -509,7 +383,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{

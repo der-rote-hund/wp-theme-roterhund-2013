@@ -15,12 +15,19 @@
 .sectionheader {
   color: #666;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 3.5em;
+  font-size: 2em;
   font-style: italic;
   font-weight: normal;
   margin: .15em 0 .25em 0;
   // text-shadow: 1px 1px 3px rgba(255,255,255,1);
 }
+@media (min-width: 44em) {
+  .work > h3,
+  .sectionheader {
+    font-size: 3.5em;
+  }
+}
+
 .work li {
   background: #fff;
   border-right: 1px solid #e3e3e3;

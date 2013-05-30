@@ -1,0 +1,14 @@
+#lang_sel_list {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#lang_sel_list li {
+  padding: 1em;
+  display: inline-block;
+}
+
+html[lang|="en"] #lang_sel_list li.icl-en,
+html[lang|="de"] #lang_sel_list li.icl-de {
+  display: none;
+}
