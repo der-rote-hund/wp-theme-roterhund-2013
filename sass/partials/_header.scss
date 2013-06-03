@@ -1,13 +1,10 @@
 header {  
     padding: 1em;
     z-index: 1000;
-  @include breakpoint(m-size) {
-
-  }
 }
 .page-header {
-  border-top: 1px solid $gelb;
-  border-bottom: 2px solid $gelb;
+  border-top: 1px solid $blau;
+  border-bottom: 1px solid $gruen;
   color: $rot;
   font-weight: 300;
   padding: 1em 0;

@@ -1,5 +1,5 @@
 .work {
-  background: #f1f1f1;
+  background: $gelb;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #fff;
   margin: 0;
@@ -13,26 +13,36 @@
 
 .work > h3,
 .sectionheader {
-  color: #666;
+  color: #fff;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2em;
-  font-style: italic;
   font-weight: normal;
+  letter-spacing: .2em;
   margin: .15em 0 .25em 0;
-  // text-shadow: 1px 1px 3px rgba(255,255,255,1);
+  text-transform: uppercase;
 }
 @media (min-width: 44em) {
   .work > h3,
   .sectionheader {
-    font-size: 3.5em;
+    font-size: 3.2em;
   }
 }
 
+.work > p {
+  color: rgba(0,0,0,.5);
+  font-size: .85em;
+  padding-bottom: 3em;
+}
 .work li {
   background: #fff;
-  border-right: 1px solid #e3e3e3;
-  border-bottom: 1px solid #d6d6d6;
+  // border-right: 1px solid #e3e3e3;
+  // border-bottom: 1px solid #d6d6d6;
+  box-shadow: 0 1px 2px rgba(0,0,0,.5);
   margin-bottom: 2em;
+  @include breakpoint(m-size) {
+    margin-right: 2.5em;
+    margin-bottom: 4em;
+  }
 }
 .framed {
   background: #f1f1f1;

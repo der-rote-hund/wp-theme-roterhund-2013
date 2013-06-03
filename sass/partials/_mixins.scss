@@ -49,6 +49,9 @@
   @else if $point == m-size {
     @media (min-width: 44em)  { @content; } // 704px
   }
+  @else if $point == m-height {
+    @media (min-height: 44em)  { @content; } // 704px
+  }
 }
 // usage:
 // .page-wrap {

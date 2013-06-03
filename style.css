@@ -314,6 +314,7 @@ article {
 .button {
   background-color: #0bc5f4;
   border-radius: .35em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   display: inline-block;
   font-weight: 300;
   margin: .2em .2em 1em .2em;
@@ -325,6 +326,7 @@ a.button {
 
 .button:hover {
   background-color: #02e447;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
   color: #fff; }
 
 .button--up {
@@ -362,8 +364,8 @@ header {
   z-index: 1000; }
 
 .page-header {
-  border-top: 1px solid #ffed00;
-  border-bottom: 2px solid #ffed00;
+  border-top: 1px solid #0bc5f4;
+  border-bottom: 1px solid #02e447;
   color: #fc1e00;
   font-weight: 300;
   padding: 1em 0;
@@ -506,7 +508,7 @@ a.social {
   transform: rotate(0deg); }
 
 .work {
-  background: #f1f1f1;
+  background: #ffed00;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #fff;
   margin: 0;
@@ -517,22 +519,31 @@ a.social {
     padding-top: 2.5em; } }
 .work > h3,
 .sectionheader {
-  color: #666;
+  color: #fff;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2em;
-  font-style: italic;
   font-weight: normal;
-  margin: .15em 0 .25em 0; }
+  letter-spacing: .2em;
+  margin: .15em 0 .25em 0;
+  text-transform: uppercase; }
 
 @media (min-width: 44em) {
   .work > h3,
   .sectionheader {
-    font-size: 3.5em; } }
+    font-size: 3.2em; } }
+.work > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: .85em;
+  padding-bottom: 3em; }
+
 .work li {
   background: #fff;
-  border-right: 1px solid #e3e3e3;
-  border-bottom: 1px solid #d6d6d6;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   margin-bottom: 2em; }
+  @media (min-width: 44em) {
+    .work li {
+      margin-right: 2.5em;
+      margin-bottom: 4em; } }
 
 .framed {
   background: #f1f1f1;
