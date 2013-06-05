@@ -11,7 +11,7 @@
 
         <footer id="contact">
             <article class="imprint">
-                <p>&copy; 2013 Philipp Marquardt <a href="mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,">pm@roterhund.de</a></p>
+                <p>&copy; 2013 Philipp Marquardt &nbsp; <a href="mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,">pm@roterhund.de</a></p>
             </article>
             <aside>
                 <p id="fn-1" class="fussnote"><?php echo __('(*) Mostly. May contain traces of CSS 3 and HTML 5.', 'der_rote_hund'); ?></p>
@@ -35,11 +35,14 @@
 
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.scrollTo-min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.localscroll-min.js"></script>
+
+    <!--script src="<?php echo get_template_directory_uri(); ?>/js/jquery.balancetext.js"></script -->
+
     <script src="<?php echo get_template_directory_uri(); ?>/js/rhd-scripts.js"></script>
 
 <!-- Piwik --> 
     <script type="text/javascript">
-    var pkBaseURL = (("https:" == document.location.protocol) ? "https://roterhund.de/piwik-analytics/" : "http://roterhund.de/piwik-analytics/");
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.roterhund.de/piwik-analytics/" : "http://www.roterhund.de/piwik-analytics/");
     document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
     </script><script type="text/javascript">
     try {
@@ -48,7 +51,7 @@
     piwikTracker.enableLinkTracking();
     } catch( err ) {}
     </script>
-    <noscript><p><img src="http://roterhund.de/piwik-analytics/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+    <noscript><p><img src="http://www.roterhund.de/piwik-analytics/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
 <!-- End Piwik Tracking Code -->
 
 </body>

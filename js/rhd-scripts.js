@@ -1,6 +1,16 @@
 // add class with browser and version to body
 function checkBoxShadow() {
-    $("body").addClass(BrowserDetect.browser + "-" + BrowserDetect.version);
+  var BSClass = "";
+  if ((BrowserDetect.browser == "Opera") && (BrowserDetect.version <= "11")) {
+      BSClass = "rhd-no-boxshadow";
+    } else if ((BrowserDetect.browser == "Firefox") && (BrowserDetect.version <= "4")) {
+      BSClass = "rhd-no-boxshadow";
+    } else if ((BrowserDetect.browser == "Safari") && (BrowserDetect.version < "6")) {
+      BSClass = "rhd-no-boxshadow";
+    } else {
+      BSClass = "rhd-boxshadow";
+    }
+  $("body").addClass(BSClass);
 }
 
 
@@ -29,6 +39,7 @@ $(document).ready(function () {
   });
 
   checkBoxShadow();
+//  $('.header__intro').balanceText();
 
 // scroll pagemenu
 

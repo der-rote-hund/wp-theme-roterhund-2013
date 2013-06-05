@@ -78,8 +78,9 @@
 
 /* Für Browser, die box-shadow nicht (ganz) verstehen: */
 .lt-ie9 .hund, /* fuer explorer 8/7 ohne javascript */
-.no-boxshadow .hund { /* fuer alle, die es per normalizr zugeben oder ff3/Safari5 per ua-sniffer*/
-    background: #fff url("../images/hund.gif") 50% 50% no-repeat;
+.no-boxshadow .hund, /* fuer alle, die es per normalizr zugeben */
+.rhd-no-boxshadow .hund { /* fuer ff3/Safari5/Opera11 per ua-sniffer */
+    background: #fff url("images/hund.gif") 50% 50% no-repeat;
     width: 141px;
     height: 111px;
 }

@@ -89,7 +89,7 @@
                 <li class="gallery">
                     <a title="Der Rote Hund @ Instagram" href="http://instagram.com/derrotehund" class="instagram" rel="nofollow">
                         <span class="gallery__img">
-                            <img src="http://distilleryimage5.s3.amazonaws.com/a4b1edf6a11c11e293c522000a9f4d92_6.jpg" alt="Der Rote Hund @ Instagram">
+                            <img src="http://distilleryimage7.s3.amazonaws.com/2401c700cb8611e2b61c22000a9f4de7_6.jpg" alt="Der Rote Hund @ Instagram">
                         </span>
                         <br>Der Rote Hund @ Instagram
                     </a>
