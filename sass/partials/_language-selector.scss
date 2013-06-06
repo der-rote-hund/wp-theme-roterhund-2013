@@ -4,10 +4,16 @@
   right: 0;
 }
 #lang_sel_list li {
-  padding: 1em;
   display: inline-block;
 }
-
+#lang_sel_list li a {
+  background: rgba(0,0,0,.05);
+  padding: 1em;
+  display: block;
+}
+#lang_sel_list li a:hover {
+  background: rgba(0,0,0,.75);
+}
 html[lang|="en"] #lang_sel_list li.icl-en,
 html[lang|="de"] #lang_sel_list li.icl-de {
   display: none;

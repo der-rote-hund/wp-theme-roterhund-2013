@@ -262,18 +262,17 @@ p.hund {
 
 /* Der Rote Hund aus CSS-3-box-shadow */
 .hund {
-  box-shadow: -8em -5em 0 0 red, -6em -5em 0 0 red, -8em -4em 0 0 red, -7em -4em 0 0 red, -6em -4em 0 0 red, -9em -3em 0 0 red, -8em -3em 0 0 red, -7em -3em 0 0 red, -6em -3em 0 0 red, -9em -2em 0 0 red, -8em -2em 0 0 red, -7em -2em 0 0 red, -6em -2em 0 0 red, -5em -2em 0 0 red, -4em -2em 0 0 red, -3em -2em 0 0 red, -2em -2em 0 0 red, -1em -2em 0 0 red, 0 -2em 0 0 red, 1em -2em 0 0 red, 2em -2em 0 0 red, -6em -1em 0 0 red, -6em 0 0 0 red, -6em 1em 0 0 red, -5em -1em 0 0 red, -5em 0 0 0 red, -5em 1em 0 0 red, -4em -1em 0 0 red, -4em 0 0 0 red, -4em 1em 0 0 red, -3em -1em 0 0 red, -3em 0 0 0 red, -3em 1em 0 0 red, -2em -1em 0 0 red, -2em 0 0 0 red, -2em 1em 0 0 red, 0 0 0 1em red, 3em -3em 0 0 red, 3em -4em 0 0 red, 3em -5em 0 0 red, -6em 2em 0 0 red, -6em 3em 0 0 red, -6em 4em 0 0 red, -4em 2em 0 0 red, -4em 3em 0 0 red, -4em 4em 0 0 red, -1em 2em 0 0 red, -1em 3em 0 0 red, -1em 4em 0 0 red, 1em 2em 0 0 red, 1em 3em 0 0 red, 1em 4em 0 0 red;
+  box-shadow: -6em -3em 0 0 red, -6em -2em 0 0 red, -5em -5em 0 0 red, -5em -4em 0 0 red, -5em -3em 0 0 red, -5em -2em 0 0 red, -4em -4em 0 0 red, -4em -3em 0 0 red, -4em -2em 0 0 red, -3em -5em 0 0 red, -3em -4em 0 0 red, -3em -3em 0 0 red, -3em -2em 0 0 red, -3em -1em 0 0 red, -3em 0 0 0 red, -3em 1em 0 0 red, -3em 2em 0 0 red, -3em 3em 0 0 red, -3em 4em 0 0 red, -2em -2em 0 0 red, -2em -1em 0 0 red, -2em 0 0 0 red, -2em 1em 0 0 red, -1em -2em 0 0 red, -1em -1em 0 0 red, -1em 0 0 0 red, -1em 1em 0 0 red, -1em 2em 0 0 red, -1em 3em 0 0 red, -1em 4em 0 0 red, 0 -2em 0 0 red, 0 -1em 0 0 red, 0 1em 0 0 red, 1em -2em 0 0 red, 1em -1em 0 0 red, 1em 0 0 0 red, 1em 1em 0 0 red, 2em -2em 0 0 red, 2em -1em 0 0 red, 2em 0 0 0 red, 2em 1em 0 0 red, 2em 2em 0 0 red, 2em 3em 0 0 red, 2em 4em 0 0 red, 3em -2em 0 0 red, 3em -1em 0 0 red, 3em 0 0 0 red, 3em 1em 0 0 red, 4em -2em 0 0 red, 4em -1em 0 0 red, 4em 0 0 0 red, 4em 1em 0 0 red, 4em 2em 0 0 red, 4em 3em 0 0 red, 4em 4em 0 0 red, 5em -2em 0 0 red, 6em -3em 0 0 red, 6em -4em 0 0 red, 6em -5em 0 0 red;
   background: red;
   display: block;
   margin: 10em auto 7em auto;
   overflow: hidden;
-  position: relative;
-  left: 2.5em;
   width: 1em;
   height: 1em; }
 
 /* Für Browser, die box-shadow nicht (ganz) verstehen: */
 .lt-ie9 .hund,
+.no-js .hund,
 .no-boxshadow .hund,
 .rhd-no-boxshadow .hund {
   /* fuer ff3/Safari5/Opera11 per ua-sniffer */
@@ -406,8 +405,15 @@ header {
   right: 0; }
 
 #lang_sel_list li {
-  padding: 1em;
   display: inline-block; }
+
+#lang_sel_list li a {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+  display: block; }
+
+#lang_sel_list li a:hover {
+  background: rgba(0, 0, 0, 0.75); }
 
 html[lang|="en"] #lang_sel_list li.icl-en,
 html[lang|="de"] #lang_sel_list li.icl-de {

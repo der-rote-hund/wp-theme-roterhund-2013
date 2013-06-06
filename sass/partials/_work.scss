@@ -35,8 +35,6 @@
 }
 .work li {
   background: #fff;
-  // border-right: 1px solid #e3e3e3;
-  // border-bottom: 1px solid #d6d6d6;
   box-shadow: 0 1px 2px rgba(0,0,0,.5);
   margin-bottom: 2em;
   @include breakpoint(m-size) {
@@ -47,7 +45,6 @@
 .framed {
   background: #f1f1f1;
   border: 1px solid #e1e1e1;
-  // padding: 5px;
 }
 .work li h3 {
   margin-bottom: .25em;
