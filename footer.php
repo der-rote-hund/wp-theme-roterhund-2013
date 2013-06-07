@@ -11,7 +11,7 @@
 
         <footer id="contact">
             <article class="imprint">
-                <p>&copy; 2013 Philipp Marquardt &nbsp; <a href="mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,">pm@roterhund.de</a></p>
+                <p>&copy; 2013 Philipp Marquardt &nbsp; <a href="<?php echo __('mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,', 'der_rote_hund'); ?>">pm@roterhund.de</a></p>
             </article>
             <aside>
                 <p id="fn-1" class="fussnote"><?php echo __('(*) Mostly. May contain traces of CSS 3 and HTML 5.', 'der_rote_hund'); ?></p>

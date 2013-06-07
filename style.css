@@ -271,12 +271,17 @@ p.hund {
   height: 1em; }
 
 /* Für Browser, die box-shadow nicht (ganz) verstehen: */
+/* 1) fuer explorer 8/7
+/* 2) ohne javascript */
+/* 3) fuer alle, die es per modernizr zugeben */
+/* 4) fuer ff3/Safari5/Opera11 per ua-sniffer */
 .lt-ie9 .hund,
 .no-js .hund,
 .no-boxshadow .hund,
 .rhd-no-boxshadow .hund {
-  /* fuer ff3/Safari5/Opera11 per ua-sniffer */
   background: white url("images/hund.gif") 50% 50% no-repeat;
+  box-shadow: none;
+  margin: 2em auto 2em auto;
   width: 141px;
   height: 111px; }
 
@@ -409,8 +414,11 @@ header {
 
 #lang_sel_list li a {
   background: rgba(0, 0, 0, 0.05);
-  padding: 1em;
-  display: block; }
+  display: block;
+  font-size: .8em;
+  font-variant: small-caps;
+  letter-spacing: .1em;
+  padding: 1em; }
 
 #lang_sel_list li a:hover {
   background: rgba(0, 0, 0, 0.75); }
@@ -571,21 +579,6 @@ a.social {
   color: #fc1e00;
   white-space: nowrap; }
 
-.imglink {
-  cursor: pointer;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0; }
-
-.lis-img {
-  background: #f1f1f1;
-  border: 1px solid #a0a0a0;
-  margin: 1em;
-  padding: 5px;
-  max-height: 90%; }
-
 footer {
   background: #232323;
   background: #000;
@@ -628,79 +621,6 @@ footer {
 
   to {
     color: #666; } }
-
-html, body {
-  padding: 0;
-  margin: 0;
-  height: 100%; }
-
-.modalwindow {
-  background-color: #333;
-  background-color: rgba(0, 0, 0, 0.85);
-  cursor: pointer;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  z-index: 5;
-  -moz-transition: all .25s ease-out;
-  -webkit-transition: all .25s ease-out;
-  -o-transition: all .25s ease-out;
-  transition: all .25s ease-out; }
-
-.off {
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0; }
-
-.verticalizer,
-.modalwindow:before {
-  content: '';
-  background: transparent;
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em;
-  /* Adjusts for spacing */
-  width: 5px; }
-
-.modalwindow__content {
-  background: transparent;
-  display: inline-block;
-  vertical-align: middle;
-  width: 96%;
-  height: 96%;
-  z-index: 10; }
-
-.modalwindow__content img {
-  max-width: 100%;
-  max-height: 100%;
-  display: inline-block;
-  vertical-align: middle; }
-
-/* style the links for the top level */
-#lang_sel a,
-#lang_sel a:visited {
-  display: block; }
-
-/* hide the sub levels and give them a positon absolute so that they take up no room */
-#lang_sel ul ul {
-  visibility: hidden;
-  position: absolute;
-  height: 0; }
-
-/* style the table so that it takes no ppart in the layout - required for IE to work */
-#lang_sel table {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-collapse: collapse; }
 
 .lt-ie7 .circle,
 .lt-ie7 .triangle {

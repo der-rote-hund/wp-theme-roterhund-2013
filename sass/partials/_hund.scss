@@ -83,12 +83,17 @@
   }
 
 /* Für Browser, die box-shadow nicht (ganz) verstehen: */
-
-.lt-ie9 .hund, /* fuer explorer 8/7 ohne javascript */
+/* 1) fuer explorer 8/7
+/* 2) ohne javascript */
+/* 3) fuer alle, die es per modernizr zugeben */
+/* 4) fuer ff3/Safari5/Opera11 per ua-sniffer */
+.lt-ie9 .hund,
 .no-js .hund,
-.no-boxshadow .hund, /* fuer alle, die es per normalizr zugeben */
-.rhd-no-boxshadow .hund { /* fuer ff3/Safari5/Opera11 per ua-sniffer */
+.no-boxshadow .hund,
+.rhd-no-boxshadow .hund {
     background: #fff url("images/hund.gif") 50% 50% no-repeat;
+    box-shadow: none;
+    margin: 2em auto 2em auto;
     width: 141px;
     height: 111px;
 }

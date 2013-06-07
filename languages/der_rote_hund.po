@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-theme-roterhund-2013\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-30 22:12+0100\n"
-"PO-Revision-Date: 2013-05-30 22:12+0100\n"
+"POT-Creation-Date: 2013-06-06 17:37+0100\n"
+"PO-Revision-Date: 2013-06-06 17:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: Philipp <pm@roterhund.de>\n"
 "MIME-Version: 1.0\n"
@@ -178,6 +178,10 @@ msgstr ""
 #: content.php:62
 msgid "% Comments"
 msgstr ""
+
+#: footer.php:14
+msgid "mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,"
+msgstr "mailto:pm@roterhund.de?subject=Anfrage%20von%20roterhund.de&amp;body=Hallo%20Philipp,"
 
 #: footer.php:17
 msgid "(*) Mostly. May contain traces of CSS 3 and HTML 5."

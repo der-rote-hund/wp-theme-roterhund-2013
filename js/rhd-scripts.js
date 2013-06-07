@@ -1,9 +1,9 @@
 // add class with browser and version to body
 function checkBoxShadow() {
   var BSClass = "";
-  if ((BrowserDetect.browser == "Opera") && (BrowserDetect.version <= "11")) {
+  if ((BrowserDetect.browser == "Opera") && (BrowserDetect.version < "12")) {
       BSClass = "rhd-no-boxshadow";
-    } else if ((BrowserDetect.browser == "Firefox") && (BrowserDetect.version <= "4")) {
+    } else if ((BrowserDetect.browser == "Firefox") && (BrowserDetect.version < "4")) {
       BSClass = "rhd-no-boxshadow";
     } else if ((BrowserDetect.browser == "Safari") && (BrowserDetect.version < "6")) {
       BSClass = "rhd-no-boxshadow";

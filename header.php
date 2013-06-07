@@ -23,6 +23,9 @@
 <?php wp_head(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/modernizr.custom.75364.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/quirksmode-browser-detect.js"></script>
+<style>
+#wpadminbar {display:none;}
+</style>
 </head>
 
 
