@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-theme-roterhund-2013\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-06 17:37+0100\n"
-"PO-Revision-Date: 2013-06-06 17:38+0100\n"
+"POT-Creation-Date: 2013-07-17 10:25+0100\n"
+"PO-Revision-Date: 2013-07-17 10:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: Philipp <pm@roterhund.de>\n"
 "MIME-Version: 1.0\n"
@@ -107,6 +107,7 @@ msgid "Comments are closed."
 msgstr "Kommentarfunktion ist deaktiviert."
 
 #: content-home.php:36
+#: content-play.php:39
 #: content.php:26
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Lies weiter <span class=\"meta-nav\">&rarr;</span>"
@@ -195,15 +196,15 @@ msgstr ""
 msgid "Sidebar"
 msgstr ""
 
-#: header.php:40
+#: header.php:43
 msgid "Web design and frontend development by your best friend"
 msgstr "Webdesign und -Entwicklung von Deinem besten Freund"
 
-#: header.php:43
-msgid "Hi, I'm Philipp Marquardt, a <strong>designer gone web developer</strong>. I've been designing and coding <em>standards compliant<a title=\"see footnote\" href=\"#fn-1\" class=\"fussnote-link\">(*)</a></em>, <em>responsive</em> and <em>compatible</em> websites for more than 15 years, the last six and a half of them as part of a multi-disciplinary team at <a href=\"http://runroom.com\" rel=\"nofollow\">Runroom</a> in Barcelona."
-msgstr "Hallo, ich bin Philipp Marquardt, <strong>Designer und Web Entwickler</strong>. Ich gestalte seit mehr als 15 Jahren Webseiten und setze sie <em>standardskonform<a title=\"siehe Fu&szlig;note\" href=\"#fn-1\" class=\"fussnote-link\">(*)</a></em>, <em>responsive</em> und <em>kompatibel</em> um. Während der letzten sechseinhalb Jahre  war ich Teil eines multidisziplinären Teams bei <a href=\"http://runroom.com\" rel=\"nofollow\">Runroom</a> in Barcelona."
+#: header.php:46
+msgid "Hi, I'm Philipp Marquardt, a <strong>designer gone web developer</strong>. I've been designing and coding <em>standards compliant<a title=\"see footnote\" href=\"#fn-1\" class=\"fussnote-link\">(*)</a></em>, <em>responsive</em> and <em>compatible</em> websites for almost 15 years, the last 6 &frac12; of them as part of a multi-disciplinary team at <a href=\"http://runroom.com\" rel=\"nofollow\">Runroom</a> in Barcelona."
+msgstr "Hallo, ich bin Philipp Marquardt, <strong>Designer und Web Entwickler</strong>. Ich gestalte seit fast 15 Jahren Webseiten und setze sie <em>standardskonform<a title=\"siehe Fu&szlig;note\" href=\"#fn-1\" class=\"fussnote-link\">(*)</a></em>, <em>responsive</em> und <em>kompatibel</em> um. Während der letzten 6 &frac12; Jahre  war ich Teil eines multidisziplinären Teams bei <a href=\"http://runroom.com\" rel=\"nofollow\">Runroom</a> in Barcelona."
 
-#: header.php:47
+#: header.php:50
 msgid "<a href=\"mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,\" title=\"Hire webdesigner and developer Philipp Marquardt\" class=\"button\">I'm currently available. Let's talk!</a>"
 msgstr "<a href=\"mailto:pm@roterhund.de?subject=Anfrage%20von%20roterhund.de&amp;body=Lieber%20Philipp,\" title=\"Webdesigner und -Entwickler Philipp Marquardt kontaktieren\" class=\"button\">Ich bin zurzeit zu haben. Reden wir!</a>"
 

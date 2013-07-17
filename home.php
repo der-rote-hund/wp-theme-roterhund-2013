@@ -17,5 +17,4 @@ get_header(); ?>
     <?php get_template_part( 'content', 'home' ); ?>
 <?php endwhile; // end of the loop. ?>
 
-
 <?php get_footer(); ?>

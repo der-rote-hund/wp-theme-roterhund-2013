@@ -25,10 +25,10 @@
                 'suppress_filters' => false,
                 'category_name' => 'work'
                 );
-
             }
             $list_of_posts = new WP_Query( $args );
             ?>
+
             <?php if ( $list_of_posts->have_posts() ) : ?>
             <?php /* The loop */ ?>
             <?php while ( $list_of_posts->have_posts() ) : $list_of_posts->the_post(); ?>

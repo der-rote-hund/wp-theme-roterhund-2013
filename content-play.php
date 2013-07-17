@@ -7,6 +7,9 @@
 ?>
 
     <section id="play">
+
+        <h1>content-play.php</h1>
+
         <article class="work">
             <h3><?php the_title(); ?></h3>
             <?php the_content(); ?>

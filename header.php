@@ -43,7 +43,7 @@ document.write('<p>You\'re using ' + BrowserDetect.browser + ' ' + BrowserDetect
             <?php echo __('Web design and frontend development by your best friend', 'der_rote_hund'); ?>  —&nbsp;<span>Der&nbsp;Rote&nbsp;Hund</span>
         </h1>
         <h2 class="header__intro">
-            <?php echo __('Hi, I\'m Philipp Marquardt, a <strong>designer gone web developer</strong>. I\'ve been designing and coding <em>standards compliant<a title="see footnote" href="#fn-1" class="fussnote-link">(*)</a></em>, <em>responsive</em> and <em>compatible</em> websites for more than 15 years, the last six and a half of them as part of a multi-disciplinary team at <a href="http://runroom.com" rel="nofollow">Runroom</a> in Barcelona.', 'der_rote_hund'); ?>
+            <?php echo __('Hi, I\'m Philipp Marquardt, a <strong>designer gone web developer</strong>. I\'ve been designing and coding <em>standards compliant<a title="see footnote" href="#fn-1" class="fussnote-link">(*)</a></em>, <em>responsive</em> and <em>compatible</em> websites for almost 15 years, the last 6 &frac12; of them as part of a multi-disciplinary team at <a href="http://runroom.com" rel="nofollow">Runroom</a> in Barcelona.', 'der_rote_hund'); ?>
         </h2>
         
         <h3>

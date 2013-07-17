@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8300",
+  "creatorBuild" : "8317",
   "files" : {
     "\/content-single.php" : {
       "ignoreWasSetByUser" : 0,
@@ -286,18 +286,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/partials\/_lis.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_lis.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/_lis.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/partials\/_shapes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -307,6 +295,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/_shapes.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/partials\/_lis.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/partials\/_lis.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/_lis.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -356,18 +356,6 @@
       "outputAbbreviatedPath" : "\/js\/modernizr.custom.75364-ck.js",
       "fileType" : 64
     },
-    "\/sass\/partials\/_language-selector.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_language-selector.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/_language-selector.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/partials\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -380,6 +368,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/sass\/partials\/_language-selector.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/partials\/_language-selector.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/_language-selector.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/single.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -388,15 +388,6 @@
       "inputAbbreviatedPath" : "\/single.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/layouts\/sidebar-sidebar-content.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layouts\/sidebar-sidebar-content.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/temp\/js\/modernizr.custom.98464.js" : {
       "ignoreWasSetByUser" : 0,
@@ -408,6 +399,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/temp\/js\/modernizr.custom.98464-ck.js",
       "fileType" : 64
+    },
+    "\/layouts\/sidebar-sidebar-content.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layouts\/sidebar-sidebar-content.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/page.php" : {
       "ignoreWasSetByUser" : 0,
@@ -491,6 +491,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/content-play.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content-play.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/sass\/partials\/_wp-comment.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -502,15 +511,6 @@
       "outputAbbreviatedPath" : "\/sass\/_wp-comment.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/content-play.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-play.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/inc\/custom-header.php" : {
       "ignoreWasSetByUser" : 0,
@@ -543,15 +543,6 @@
       "outputAbbreviatedPath" : "\/temp\/js\/rhd-scripts-ck.js",
       "fileType" : 64
     },
-    "\/rtl.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/rtl.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -561,12 +552,86 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/rtl.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/rtl.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/temp\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/temp\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sass\/partials\/_font-sizes.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/partials\/_font-sizes.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/_font-sizes.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/temp\/js\/jquery.scrollTo-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/temp\/js\/jquery.scrollTo-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/temp\/js\/jquery.scrollTo-min-ck.js",
+      "fileType" : 64
+    },
+    "\/sass\/partials\/_hund.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/partials\/_hund.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/_hund.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/style.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/style.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/style.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/search.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/search.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/inc\/extras.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/extras.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -582,65 +647,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/layouts\/content-sidebar-sidebar.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layouts\/content-sidebar-sidebar.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/search.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/search.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/temp\/js\/jquery.scrollTo-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/temp\/js\/jquery.scrollTo-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/temp\/js\/jquery.scrollTo-min-ck.js",
-      "fileType" : 64
-    },
-    "\/content-page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/inc\/extras.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/extras.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/sass\/style.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/style.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -650,17 +656,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sass\/partials\/_hund.scss" : {
+    "\/content-page.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_hund.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/_hund.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/content-page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/rhd-scripts-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -673,17 +676,14 @@
       "outputAbbreviatedPath" : "\/js\/rhd-scripts-ck-ck.js",
       "fileType" : 64
     },
-    "\/sass\/partials\/_font-sizes.scss" : {
+    "\/layouts\/sidebar-content.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_font-sizes.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/_font-sizes.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/layouts\/sidebar-content.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/sass\/partials\/_farbschema-dunkel.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -706,15 +706,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/layouts\/sidebar-content.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layouts\/sidebar-content.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/js-browsertest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -723,6 +714,15 @@
       "inputAbbreviatedPath" : "\/js-browsertest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/layouts\/content-sidebar-sidebar.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layouts\/content-sidebar-sidebar.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/rhd-scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -733,6 +733,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/rhd-scripts-ck.js",
+      "fileType" : 64
+    },
+    "\/temp\/js\/respond.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/temp\/js\/respond.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/temp\/js\/respond.min-ck.js",
       "fileType" : 64
     },
     "\/sass\/partials\/_modal-window.scss" : {
@@ -747,16 +758,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/temp\/js\/respond.min.js" : {
+    "\/functions.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/temp\/js\/respond.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/temp\/js\/respond.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/temp\/js\/jquery.localscroll-min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -768,15 +777,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/temp\/js\/jquery.localscroll-min-ck.js",
       "fileType" : 64
-    },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/content.php" : {
       "ignoreWasSetByUser" : 0,
@@ -851,15 +851,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/inc\/template-tags.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/template-tags.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/sass\/partials\/_work.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -871,6 +862,15 @@
       "outputAbbreviatedPath" : "\/sass\/_work.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/inc\/template-tags.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/template-tags.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/layouts\/sidebar-content-sidebar.css" : {
       "ignoreWasSetByUser" : 0,
@@ -900,7 +900,10 @@
     "sassAutoOutputPathStyle" : 2,
     "stylusAutoOutputPathReplace2" : "css",
     "lessAutoOutputPathStyle" : 2,
+    "lessIECompatibility" : 1,
     "genericWebpageFileExtensionsString" : "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+    "lessStrictUnits" : 0,
+    "lessStrictMath" : 0,
     "coffeeMinifyOutput" : 1,
     "javascriptOutputSuffix" : "-ck",
     "jadeOutputStyle" : 0,
@@ -1049,6 +1052,7 @@
     "jadeCompileDebug" : 1,
     "slimRailsCompatible" : 0,
     "kitAutoOutputPathReplace2" : "",
+    "lessRelativeURLS" : 0,
     "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "",
     "slimAutoOutputPathStyle" : 0
