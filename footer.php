@@ -11,7 +11,8 @@
 
         <footer id="contact">
             <article class="imprint">
-                <p>&copy; 2013 Philipp Marquardt &nbsp; <a href="<?php echo __('mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,', 'der_rote_hund'); ?>">pm@roterhund.de</a></p>
+                <p><?php echo __('Concept, Design, Frontend-Development &copy; 2013 by Philipp Marquardt &nbsp;', 'der_rote_hund'); ?> <a href="<?php echo __('mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,', 'der_rote_hund'); ?>">pm@roterhund.de</a></p>
+                <p><?php echo __('Dynamic thanks to <a href="http://wordpress.org" rel="nofollow">Wordpress</a>', 'der_rote_hund'); ?></p>
             </article>
             <aside>
                 <p id="fn-1" class="fussnote"><?php echo __('(*) Mostly. May contain traces of CSS 3 and HTML 5.', 'der_rote_hund'); ?></p>

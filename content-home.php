@@ -46,6 +46,46 @@
     </section>
 
 
+    <section id="play">
+        <article class="work play">
+            <h3><?php echo __('Play', 'der_rote_hund'); ?></h3>
+            <p><?php echo __('Stuff I made for fun', 'der_rote_hund'); ?></p>
+            <ul class="img-list clearfix">
+
+
+            <?php 
+            if(getActiveLanguage()=='de') {
+                $args = array(
+                'suppress_filters' => false,
+                'category_name' => 'spiel'
+                );
+
+            } else {
+                $args = array(
+                'suppress_filters' => false,
+                'category_name' => 'play'
+                );
+            }
+            $list_of_posts = new WP_Query( $args );
+            ?>
+
+            <?php if ( $list_of_posts->have_posts() ) : ?>
+            <?php /* The loop */ ?>
+            <?php while ( $list_of_posts->have_posts() ) : $list_of_posts->the_post(); ?>
+            <li>
+                <h3><?php the_title(); ?></h3>
+                <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'der_rote_hund' ) ); ?>
+            </li>
+            <?php endwhile; ?>
+
+            <?php else : ?>
+            <?php get_template_part( 'content', 'none' ); ?>
+            <?php endif; ?>
+
+            </ul>
+        </article>
+    </section>
+
     <section id="network">
         <article class="elsewhere clearfix">
             <h3><?php echo __('Der Rote Hund elsewhere online:', 'der_rote_hund'); ?></h3>

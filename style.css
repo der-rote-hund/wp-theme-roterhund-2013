@@ -413,15 +413,13 @@ header {
   display: inline-block; }
 
 #lang_sel_list li a {
-  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #f1f1f1;
   display: block;
   font-size: .8em;
-  font-variant: small-caps;
-  letter-spacing: .1em;
   padding: 1em; }
 
 #lang_sel_list li a:hover {
-  background: rgba(0, 0, 0, 0.75); }
+  background: rgba(0, 0, 0, 0.5); }
 
 html[lang|="en"] #lang_sel_list li.icl-en,
 html[lang|="de"] #lang_sel_list li.icl-de {
