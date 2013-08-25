@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-theme-roterhund-2013\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-22 10:24+0100\n"
-"PO-Revision-Date: 2013-07-22 10:24+0100\n"
+"POT-Creation-Date: 2013-08-25 21:44+0100\n"
+"PO-Revision-Date: 2013-08-25 21:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: Philipp <pm@roterhund.de>\n"
 "MIME-Version: 1.0\n"
@@ -107,12 +107,21 @@ msgid "Comments are closed."
 msgstr "Kommentarfunktion ist deaktiviert."
 
 #: content-home.php:36
+#: content-home.php:77
 #: content-play.php:39
 #: content.php:26
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Lies weiter <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-home.php:51
+msgid "Play"
+msgstr ""
+
+#: content-home.php:52
+msgid "Stuff I made for fun"
+msgstr ""
+
+#: content-home.php:91
 msgid "Der Rote Hund elsewhere online:"
 msgstr "Der Rote Hund im Netz:"
 
@@ -213,8 +222,8 @@ msgid "Hi, I'm Philipp Marquardt, a <strong>designer gone web developer</strong>
 msgstr "Hallo, ich bin Philipp Marquardt, <strong>Designer und Web Entwickler</strong>. Ich gestalte seit fast 15 Jahren Webseiten und setze sie <em>standardskonform<a title=\"siehe Fu&szlig;note\" href=\"#fn-1\" class=\"fussnote-link\">(*)</a></em>, <em>responsive</em> und <em>kompatibel</em> um. Während der letzten 6 &frac12; Jahre  war ich Teil eines multidisziplinären Teams bei <a href=\"http://runroom.com\" rel=\"nofollow\">Runroom</a> in Barcelona."
 
 #: header.php:36
-msgid "<a href=\"mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,\" title=\"Hire webdesigner and developer Philipp Marquardt\" class=\"button\">I'm currently available. Let's talk!</a>"
-msgstr "<a href=\"mailto:pm@roterhund.de?subject=Anfrage%20von%20roterhund.de&amp;body=Lieber%20Philipp,\" title=\"Webdesigner und -Entwickler Philipp Marquardt kontaktieren\" class=\"button\">Ich bin zurzeit zu haben. Reden wir!</a>"
+msgid "<a href=\"mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp,\" title=\"Contact webdesigner and developer Philipp Marquardt\" class=\"button\">Get in touch!</a>"
+msgstr "<a href=\"mailto:pm@roterhund.de?subject=Anfrage%20von%20roterhund.de&amp;body=Lieber%20Philipp,\" title=\"Webdesigner und -Entwickler Philipp Marquardt kontaktieren\" class=\"button\">Reden wir!</a>"
 
 #: image.php:23
 #, php-format

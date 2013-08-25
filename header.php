@@ -33,7 +33,7 @@
             <?php echo __('Hi, I\'m Philipp Marquardt, a <strong>designer gone web developer</strong>. I\'ve been designing and coding <em>standards compliant<a title="see footnote" href="#fn-1" class="fussnote-link">(*)</a></em>, <em>responsive</em> and <em>compatible</em> websites for almost 15 years, the last 6 &frac12; of them as part of a multi-disciplinary team at <a href="http://runroom.com" rel="nofollow">Runroom</a> in Barcelona.', 'der_rote_hund'); ?>
         </h2>
         <h3>
-            <?php echo __('<a href="mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp," title="Hire webdesigner and developer Philipp Marquardt" class="button">I\'m currently available. Let\'s talk!</a>', 'der_rote_hund'); ?>
+            <?php echo __('<a href="mailto:pm@roterhund.de?subject=Inquiry%20from%20roterhund.de&amp;body=Dear%20Philipp," title="Contact webdesigner and developer Philipp Marquardt" class="button">Get in touch!</a>', 'der_rote_hund'); ?>
         </h3>
     </header>
     <div class="wrapper">
