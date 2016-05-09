@@ -262,8 +262,9 @@ p.hund {
 
 /* Der Rote Hund aus CSS-3-box-shadow */
 .hund {
-  box-shadow: -6em -3em 0 0 red, -6em -2em 0 0 red, -5em -5em 0 0 red, -5em -4em 0 0 red, -5em -3em 0 0 red, -5em -2em 0 0 red, -4em -4em 0 0 red, -4em -3em 0 0 red, -4em -2em 0 0 red, -3em -5em 0 0 red, -3em -4em 0 0 red, -3em -3em 0 0 red, -3em -2em 0 0 red, -3em -1em 0 0 red, -3em 0 0 0 red, -3em 1em 0 0 red, -3em 2em 0 0 red, -3em 3em 0 0 red, -3em 4em 0 0 red, -2em -2em 0 0 red, -2em -1em 0 0 red, -2em 0 0 0 red, -2em 1em 0 0 red, -1em -2em 0 0 red, -1em -1em 0 0 red, -1em 0 0 0 red, -1em 1em 0 0 red, -1em 2em 0 0 red, -1em 3em 0 0 red, -1em 4em 0 0 red, 0 -2em 0 0 red, 0 -1em 0 0 red, 0 1em 0 0 red, 1em -2em 0 0 red, 1em -1em 0 0 red, 1em 0 0 0 red, 1em 1em 0 0 red, 2em -2em 0 0 red, 2em -1em 0 0 red, 2em 0 0 0 red, 2em 1em 0 0 red, 2em 2em 0 0 red, 2em 3em 0 0 red, 2em 4em 0 0 red, 3em -2em 0 0 red, 3em -1em 0 0 red, 3em 0 0 0 red, 3em 1em 0 0 red, 4em -2em 0 0 red, 4em -1em 0 0 red, 4em 0 0 0 red, 4em 1em 0 0 red, 4em 2em 0 0 red, 4em 3em 0 0 red, 4em 4em 0 0 red, 5em -2em 0 0 red, 6em -3em 0 0 red, 6em -4em 0 0 red, 6em -5em 0 0 red;
+  box-shadow: -6em -3em 0 0, -6em -2em 0 0, -5em -5em 0 0, -5em -4em 0 0, -5em -3em 0 0, -5em -2em 0 0, -4em -4em 0 0, -4em -3em 0 0, -4em -2em 0 0, -3em -5em 0 0, -3em -4em 0 0, -3em -3em 0 0, -3em -2em 0 0, -3em -1em 0 0, -3em 0 0 0, -3em 1em 0 0, -3em 2em 0 0, -3em 3em 0 0, -3em 4em 0 0, -2em -2em 0 0, -2em -1em 0 0, -2em 0 0 0, -2em 1em 0 0, -1em -2em 0 0, -1em -1em 0 0, -1em 0 0 0, -1em 1em 0 0, -1em 2em 0 0, -1em 3em 0 0, -1em 4em 0 0, 0 -2em 0 0, 0 -1em 0 0, 0 1em 0 0, 1em -2em 0 0, 1em -1em 0 0, 1em 0 0 0, 1em 1em 0 0, 2em -2em 0 0, 2em -1em 0 0, 2em 0 0 0, 2em 1em 0 0, 2em 2em 0 0, 2em 3em 0 0, 2em 4em 0 0, 3em -2em 0 0, 3em -1em 0 0, 3em 0 0 0, 3em 1em 0 0, 4em -2em 0 0, 4em -1em 0 0, 4em 0 0 0, 4em 1em 0 0, 4em 2em 0 0, 4em 3em 0 0, 4em 4em 0 0, 5em -2em 0 0, 6em -3em 0 0, 6em -4em 0 0, 6em -5em 0 0;
   background: red;
+  color: red;
   display: block;
   margin: 10em auto 7em auto;
   overflow: hidden;
